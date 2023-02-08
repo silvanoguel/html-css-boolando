@@ -107,3 +107,27 @@ header {
 .card:hover .hover-image {
     display: inline;
 }
+
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1A1A1A;
+    height: 90px;   
+    margin-top: 40px;
+}
+
+.footer-nav ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    color: white;
+    font-size: 0.8rem;
+}
+
+h5 {
+    color: white;
+}
