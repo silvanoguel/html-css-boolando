@@ -49,6 +49,7 @@ img {
     padding: 5px 10px;
     font-size: 0.8rem;
 }
+
 .discounted-price {
     color: red;
 }
@@ -61,3 +62,13 @@ img {
     padding: 10px;
 }
 
+.hover-image {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.card:hover .hover-image {
+    display: inline;
+}
